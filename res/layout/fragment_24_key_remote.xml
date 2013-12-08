@@ -1,0 +1,272 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="794dp"
+	    android:background="@color/white" >
+
+    <Button
+        android:id="@+id/brightDown24"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/brightUp24"
+        android:layout_marginTop="15dp"
+        android:onClick="brightDown24"
+        android:text="@string/brightDown24" />
+
+    <Button
+        android:id="@+id/brightUp24"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:onClick="brightUp24"
+        android:text="@string/brightUp24" />
+
+    <Button
+        android:id="@+id/powerOn24"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignBaseline="@+id/powerOff24"
+        android:layout_alignBottom="@+id/powerOff24"
+        android:layout_alignParentRight="true"
+        android:onClick="powerOn24"
+        android:text="@string/poweron24" />
+
+    <Button
+        android:id="@+id/powerOff24"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/brightUp24"
+        android:layout_centerHorizontal="true"
+        android:onClick="powerOff24"
+        android:text="@string/poweroff24" />
+
+    <Button
+        android:id="@+id/strobe24"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/flash24"
+        android:onClick="strobe24"
+        android:text="@string/strobe24" />
+
+    <Button
+        android:id="@+id/white24"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/brightDown24"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:onClick="white24"
+        android:text="@string/white44"
+/>
+
+    <Button
+        android:id="@+id/red24"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/white24"
+        android:layout_marginTop="15dp"
+        android:background="@color/red"
+        android:onClick="red24"
+        android:text="@string/red44" />
+
+    <Button
+        android:id="@+id/red224"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/red24"
+        android:layout_marginTop="15dp"
+        android:background="@color/red2"
+        android:onClick="red224"
+        android:text="@string/red244"
+        android:textColor="@color/red2" />
+
+    <Button
+        android:id="@+id/red324"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/red224"
+        android:layout_marginTop="15dp"
+        android:background="@color/red3"
+        android:onClick="red324"
+        android:text="@string/red244"
+        android:textColor="@color/red3" />
+
+    <Button
+        android:id="@+id/red424"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/red324"
+        android:layout_marginTop="15dp"
+        android:background="@color/red4"
+        android:onClick="red424"
+        android:text="@string/red244"
+        android:textColor="@color/red4" />
+
+    <Button
+        android:id="@+id/red524"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/red424"
+        android:layout_marginTop="15dp"
+        android:background="@color/red5"
+        android:onClick="red524"
+        android:text="@string/red244"
+        android:textColor="@color/red5" />
+
+    <Button
+        android:id="@+id/smooth"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignBaseline="@+id/white24"
+        android:layout_alignBottom="@+id/white24"
+        android:layout_alignLeft="@+id/flash24"
+        android:onClick="smooth24"
+        android:text="@string/smooth24" />
+
+    <Button
+        android:id="@+id/green24"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignBaseline="@+id/red24"
+        android:layout_alignBottom="@+id/red24"
+        android:layout_alignLeft="@+id/smooth"
+        android:background="@color/green"
+        android:onClick="green24"
+        android:text="@string/green44"/>
+
+    <Button
+        android:id="@+id/blue24"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/red224"
+        android:layout_alignParentRight="true"
+        android:background="@color/blue"
+        android:onClick="blue24"
+        android:text="@string/blue44" />
+
+    <Button
+        android:id="@+id/green224"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/red324"
+        android:layout_alignLeft="@+id/green24"
+        android:background="@color/green2"
+        android:onClick="green224"
+        android:text="@string/green244"
+        android:textColor="@color/green2" />
+
+    <Button
+        android:id="@+id/green324"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/red424"
+        android:layout_alignLeft="@+id/green224"
+        android:background="@color/green3"
+        android:onClick="green324"
+        android:text="@string/green244"
+        android:textColor="@color/green3" />
+
+    <Button
+        android:id="@+id/green424"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/red524"
+        android:layout_alignLeft="@+id/green324"
+        android:background="@color/green4"
+        android:onClick="green424"
+        android:text="@string/green244"
+        android:textColor="@color/green4" />
+
+    <Button
+        android:id="@+id/green524"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignBaseline="@+id/red524"
+        android:layout_alignBottom="@+id/red524"
+        android:layout_alignLeft="@+id/green424"
+        android:background="@color/green5"
+        android:onClick="green524"
+        android:text="@string/green244"
+        android:textColor="@color/green5" />
+
+    <Button
+        android:id="@+id/blue224"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/red324"
+        android:layout_alignParentRight="true"
+        android:background="@color/blue2"
+        android:onClick="blue224"
+        android:text="@string/blue244"
+        android:textColor="@color/blue2" />
+
+    <Button
+        android:id="@+id/blue324"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/red424"
+        android:layout_alignParentRight="true"
+        android:background="@color/blue3"
+        android:onClick="blue324"
+        android:text="@string/blue244"
+        android:textColor="@color/blue3" />
+
+    <Button
+        android:id="@+id/blue424"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/red524"
+        android:layout_alignParentRight="true"
+        android:background="@color/blue4"
+        android:onClick="blue424"
+        android:text="@string/blue244"
+        android:textColor="@color/blue4" />
+
+    <Button
+        android:id="@+id/blue524"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignBaseline="@+id/green524"
+        android:layout_alignBottom="@+id/green524"
+        android:layout_alignParentRight="true"
+        android:background="@color/blue5"
+        android:onClick="blue524"
+        android:text="@string/blue244"
+        android:textColor="@color/blue5" />
+
+    <Button
+        android:id="@+id/flash24"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignLeft="@+id/powerOff24"
+        android:layout_alignTop="@+id/brightDown24"
+        android:onClick="flash24"
+        android:text="@string/flash24" />
+
+    <Button
+        android:id="@+id/fade24"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignBaseline="@+id/smooth"
+        android:layout_alignBottom="@+id/smooth"
+        android:layout_alignParentRight="true"
+        android:onClick="fade24"
+        android:text="@string/fade" />
+
+	</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IR LED Control</string>
+    <string name="action_settings">Settings</string>
+    <string name="brightup44">Bright Up</string>
+    <string name="brightdown44">Bright Down</string>
+    <string name="power44">ON / OFF</string>
+    <string name="red44">R</string>
+    <string name="green44">G</string>
+    <string name="red244"></string>
+    <string name="green244"></string>
+    <string name="blue44">B</string>
+    <string name="blue244"></string>
+    <string name="white44">W</string>
+    <string name="white244"></string>
+    <string name="greenup44">G UP</string>
+    <string name="greendown44">G DOWN</string>
+    <string name="redup44">R UP</string>
+    <string name="reddown44">R DOWN</string>
+    <string name="blueup44">B UP</string>
+    <string name="bluedown44">B DOWN</string>
+    <string name="play44">PLAY</string>
+    <string name="diy144">DIY 1</string>
+    <string name="diy244">DIY 2</string>
+    <string name="diy344">DIY 3</string>
+    <string name="diy444">DIY 4</string>
+    <string name="diy544">DIY 5</string>
+    <string name="diy644">DIY 6</string>
+    <string name="jump344">JUMP 3</string>
+    <string name="jump744">JUMP 7</string>
+    <string name="fade344">FADE 3</string>
+    <string name="fade744">FADE 7</string>
+    <string name="quick44">QUICK</string>
+    <string name="slow44">SLOW</string>
+    <string name="auto44">AUTO</string>
+    <string name="flash44">FLASH</string>
+    <string name="poweron24">On</string>
+    <string name="fade24">Fade</string>
+    <string name="strobe24">Strobe</string>
+    <string name="smooth24">Smooth</string>
+    <string name="poweroff24">Off</string>
+    <string name="title_activity_remote44_key">Remote44KeyActivity</string>
+    <string name="title_activity_remote24_keys">Remote24KeysActivity</string>
+    <string name="brightUp24">Bright Up</string>
+    <string name="brightDown24">Bright Down</string>
+    <string name="flash24">Flash</string>
+    <string name="fade">Fade</string>
+    <string name="donate">donate</string>
+    <string name="typea">Type A</string>
+    <string name="typeb">Type B</string>
+    <string name="typec">Type C</string>
+
+</resources>
